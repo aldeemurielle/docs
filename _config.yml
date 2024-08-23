@@ -1,0 +1,16 @@
+title: "Your Site Title"
+description: "A searchable repository of documents"
+baseurl: "" # Leave empty for root
+url: "https://yourusername.github.io"
+
+# Configurations for Simple-Jekyll-Search
+collections:
+  articles:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: default
